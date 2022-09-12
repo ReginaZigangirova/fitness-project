@@ -1,0 +1,319 @@
+.subscription {
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.subscription__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #0C1417;
+    margin: 0;
+}
+
+.subscription__table {
+    max-width: 1096px;
+    margin: 0 auto;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.subscription__table-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.subscription__table-item:first-of-type {
+    border-bottom: 1px solid rgba(12, 20, 23, 0.5);
+    padding-bottom: 15px;
+}
+
+.subscription__table-list {
+    list-style-type: none;
+    width: 212px;
+    margin-right: 72px;
+    margin-top: 40px;
+}
+
+.subscription__table-list:first-child {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.subscription__table-list_orange {
+    color: #F7931E;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: none;
+    width: 212px;
+    margin-right: 72px;
+    margin-top: 40px;
+}
+
+.subscription__table-list_black {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: none;
+    width: 212px;
+    margin-top: 40px;
+}
+
+.subscription__table-list_1 {
+    list-style-type: none;
+    width: 212px;
+    margin-right: 72px;
+    font-weight: 700;
+}
+
+.subscription__table-list_1:first-child {
+    font-weight: 500;
+}
+
+.subscription__table-list:last-of-type {
+    margin-right: 0;
+}
+
+.subscription__table-list_1:nth-child(5) {
+    color: #F7931E;
+    margin-right: 0;
+}
+
+.subscription__table-list_time {
+    text-align: center;
+}
+
+.subscription__table-list_time:first-child {
+    text-align: start;
+}
+
+.subscription__head {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 101px;
+}
+
+.subscription__head:last-of-type {
+    margin-top: 90px;
+}
+
+.subscription__cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.subscription__card {
+    display: block;
+    text-align: center;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+    max-width: 308px;
+    margin-right: 30px;
+}
+
+.subscription__card:last-child {
+    margin-right: 0;
+}
+
+.subscription__card-name {
+    max-width: 267px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 32px 21px 0 20px;
+    margin: 0;
+}
+
+.subscription__card-name_last {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 30px 63px 0;
+    margin: 0;
+}
+
+.subscription__card-name_orange {
+    max-width: 267px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 32px 21px 0 20px;
+    color: #F7931E;
+    margin: 0;
+}
+
+.subscription__card-time {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(12, 20, 23, 0.5);
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.subscription__card-img {
+    margin-top: 30px;
+}
+
+.subscription__card-img_last {
+    margin-top: 10px;
+}
+
+.subscription__card-price {
+    margin: 15px 0 0;
+}
+
+.subscription__card-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(12, 20, 23, 0.5);
+    margin: 15px 0 0;
+}
+
+.subscription__card-button {
+    padding: 15px 80px 15px 81px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F7931E;
+    background: transparent;
+    border: 1px solid #F7931E;
+    margin: 30px 0 28px;
+    display: inline-block;
+    transform: skew(-30deg);
+    
+}
+
+.subscription__card-button_orange {
+    padding: 15px 80px 15px 81px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #F7931E;
+    margin: 30px 0 28px;
+    display: inline-block;
+    transform: skew(-30deg);
+    background: #F7931E;
+    color: #FFF;
+}
+
+.subscription__card-button-text {
+    display: inline-block; 
+   transform: skew(30deg);
+}
+
+@media screen and (max-width: 1000px) {
+    .subscription {
+        padding-top: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    .subscription__card {
+        max-width: 226px;
+    }
+    .subscription__card-container {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    }
+    .subscription__card-container_last {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+        margin-top: 37px;
+    }
+    .subscription__card-time {
+        margin-top: 0;
+        max-width: 149px;
+    }
+    .subscription__card-img {
+        margin-top: 0;
+    order: -1;
+    margin-right: 25px;
+    }
+    .subscription__card-img_last {
+        margin-top: 0;
+    order: -1;
+    margin-right: 15px;
+    }
+    .subscription__card-price {
+        margin-top: 50px;
+    }
+    .subscription__card-price_last {
+        margin-top: 37px;
+    }
+    .subscription__card-button {
+        padding: 15px 47px 15px;
+    }
+    .subscription__card-button_orange {
+        background: transparent;
+        color: #F7931E;
+    }
+    .subscription__table-list_1 {
+        margin-right: 15px;
+    }
+    .subscription__table-list_orange {
+        margin-right: 20px;
+    }
+    .subscription__table-list{
+        margin-right: 20px;
+    }
+    .subscription__card-button {
+        margin-top: 15px;
+    }
+    .subscription__card-button_orange {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .subscription {
+        padding-top: 80px;
+    padding-bottom: 80px;
+    }
+    .subscription__scroll {
+        overflow-x: scroll;
+    }
+    .subscription__title {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .subscription__cards {
+        display: block;
+    }
+    .subscription__card {
+        margin-top: 30px;
+        max-width: 290px;
+        margin-right: 0;
+    }
+    
+    .subscription__card-container {
+        margin-top: 38px;
+    }
+    .subscription__card-price {
+        margin-top: 38px;
+    }
+}

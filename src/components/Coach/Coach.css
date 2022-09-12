@@ -1,0 +1,120 @@
+.coach {
+    padding: 100px 51px 107px 82px;
+}
+
+.coach__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin: 0;
+    margin: 207px 0 328px;
+}
+
+.coach__container {
+    display: flex;
+}
+
+.coach__cards {
+    display: flex;
+    justify-content: center;
+    margin-left: 55px;
+    overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+   
+}
+
+.coach__card {
+    margin-right: 30px;
+    line-height: 0;
+    display: inline-block;
+}
+
+.coach__card:last-child {
+    margin-right: 0;
+}
+
+.coach__img {
+    width: 307px;
+    height: 430px;
+}
+
+.coach__img_last {
+    width: 93px;
+}
+
+.coach__name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 20px 0 0;
+}
+
+.coach__profession {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 15px 0 0;
+}
+
+.coach__profession_second {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 10px 0 0;
+}
+
+.coach__experience {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 10px 0 0;
+}
+
+.coach__arrow {
+    margin-top: 36.69px;
+    text-align: center;
+}
+
+.coach__vector {
+    width: 22.75px;
+    height: 14.63px;
+    margin-right: 43.25px;
+    cursor: pointer;
+}
+
+.coach__vector:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .coach {
+        padding: 90px 0 93px 29px;
+    }
+    .coach__container {
+        display: block;
+    }
+    .coach__title {
+        margin: 0;
+    text-align: center;
+    }
+    .coach__cards {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .coach {
+        padding: 80px 0 80px 18px ;
+    }
+}

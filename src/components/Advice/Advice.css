@@ -1,0 +1,107 @@
+.advice {
+    background-image: url(../../images/form.png);
+    padding: 111px 173px 111px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    padding: 99px 16.5px 118px;
+
+}
+
+.advice__form {
+    text-align: center;
+    max-width: 351px;
+}
+
+.advice__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.advice__subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 25px 0 0;
+}
+
+.advice__span {
+    color: #F7931E;
+}
+
+.advice__input {
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    background: transparent;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.advice__input:last-of-type {
+    margin-top: 10px;
+}
+
+.advice__button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    outline: none;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    padding: 20px 33px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    display: inline-block;
+    transform: skew(-30deg);
+}
+
+.advice__button-text {
+    display: inline-block;
+    transform: skew(30deg);
+}
+
+.advice__comment {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .advice {
+        padding: 99px 16.5px 118px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .advice {
+        padding: 80px 15px 80px;
+    }
+    .advice__title {
+        font-size: 20px;
+    }
+    .advice__subtitle {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
